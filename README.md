@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://fgviemkm4zhzxgohzewdng.on.drv.tw/www.edie-homepage-master.blog/">
       Demo
     </a>
     <span> | </span>
@@ -25,7 +25,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [How to Use](#how-to-use)
 - [Contact](#contact)
