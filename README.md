@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](link-to-your-screenshot.png)
+![screenshot](screenshot.png)
 
 This project is a homepage layout for "Edie," featuring various sections such as services, team information, customer testimonials, and a footer.
 
