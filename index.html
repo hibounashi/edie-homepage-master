@@ -7,9 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 </head>
-<body class="font-poppins text-gray-700 ml-10 mr-10">
+<body class="font-poppins text-gray-700">
     
-<nav class="flex justify-between py-8">
+<nav class="flex justify-between py-8 mx-10">
     <div class="flex items-center space-x-4 font-heebo font-bold">
         
         <a href="" class="text-3xl rounded">Edie</a>
@@ -27,7 +27,7 @@
 </nav>
 
     <!-- first section -->
-    <section class="font-medium pt-3 pb-3">
+    <section class="font-medium pt-3 pb-3 mx-10">
         <div class="text-blue-400 px-1/2 pt-3 pb-3" style="padding-left: 20%; padding-right: 40%;">Unhappy with your website?</div>
         <div class="text-4xl pt-3 pb-3" style="padding-left: 20%; padding-right: 40%;">We create beautiful and fast web services</div>
         <img class="rounded-3xl pt-3 pb-3 w-full" src="heroImage.jpg" alt="meetings">
@@ -38,7 +38,7 @@
         <div class="text-xl text-gray-500 pt-4 pb-4" style="padding-left: 20%; padding-right: 55%;">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</div>
         <div class="text-l pt-4 pb-4" style="padding-left: 20%; padding-right: 55%;">
             <div class="pt-3 pb-3">Want us to contact you?</div>
-            <div class="flex bg-gray-200 pl-5 py-1 pr-1 rounded-xl">
+            <div class="flex bg-gray-100 pl-5 py-1 pr-1 rounded-xl">
                 <input class="font-medium bg-transparent" type="email" placeholder="Email">
                 <button class="font-medium bg-blue-400 text-white w-20 px-4 py-3 rounded-xl ml-auto" type="submit">Join</button> 
             </div>
@@ -133,15 +133,38 @@
                 <img class="rounded-3xl p-3 col-span-1" src="person4.png" alt="">
                 <div class="grid grid-rows-2 col-span-7 p-3">
                     <div class="text-2xl font-semibold p-3">Carlos Tran</div>
-                    <div class="text-lg text-gray-400 p-3">The Decorate Gatsby</div>
+                    <div class="text-lg font-semibold text-gray-400 p-3">The Decorate Gatsby</div>
                 </div>
             </div>
         </div>
         <div></div>
-        
     </section>
     
 
-    <footer></footer>
+    <footer class="bg-gray-900 grid grid-cols-3 px-40 py-8">
+        <div class="text-white text-lg">
+            <div class="p-1">Home</div>
+            <div class="p-1">Services</div>
+            <div class="p-1">Our Works</div>
+            <div class="p-1">Clients</div>
+            <div class="p-1">Contact</div>
+        </div>
+        <div>
+            <a href="" class="text-3xl rounded text-white font-heebo font-bold">Edie</a>
+            <div class="flex py-3">
+                <img class="mr-2" src="instagram.svg" alt="">
+                <img class="mr-2" src="linkedin.svg" alt="">
+                <img class="mr-2" src="twitter.svg" alt="">
+            </div>
+        </div>
+        <div class="text-l pt-4 pb-4">
+            <div class="pt-3 pb-3 text-white">Want us to contact you?</div>
+            <div class="flex bg-gray-100 pl-5 py-1 pr-1 rounded-xl">
+                <input class="font-medium bg-transparent" type="email" placeholder="Email">
+                <button class="font-medium bg-blue-400 text-white w-20 px-4 py-3 rounded-xl ml-auto" type="submit">Join</button> 
+            </div>
+            
+        </div>
+    </footer>
 </body>
 </html>
